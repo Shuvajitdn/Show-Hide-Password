@@ -1,0 +1,53 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Body Style */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #066ad4;
+  }
+  
+  /* Wrapper Style */
+  .wrapper {
+    position: relative;
+    height: 55px;
+    width: 320px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+    background: #fff;
+  }
+  
+  /* Input Field Style */
+  .wrapper input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding-left: 15px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 5px;
+  }
+  
+  .wrapper input::placeholder {
+    font-size: 17px;
+  }
+  
+  /* Toggle Button Style */
+  .wrapper .toggle-btn {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #0a2d5f;
+    cursor: pointer;
+  }
+  
